@@ -19,4 +19,5 @@ net.createServer(connection => {
     console.log('Subscriber disconnected.');
     watcher.close();
   });
+
   }).listen(60300, () => console.log('Listening for subscribers...'));
